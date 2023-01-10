@@ -5,8 +5,8 @@
 
 Install via pip:
 
-```commandline
-pip install "git+https://github.com/waikato-datamining/shallowflow.git#egg=shallowflow-redis&subdirectory=redis"
+```bash
+pip install "git+https://github.com/waikato-datamining/shallowflow-redis.git"
 ```
 
 ## Actors
