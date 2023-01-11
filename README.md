@@ -9,23 +9,10 @@ Install via pip:
 pip install "git+https://github.com/waikato-datamining/shallowflow-redis.git"
 ```
 
-## Actors
+## Classes
 
-* Standalones
+[Documentation](https://github.com/waikato-datamining/shallowflow-doc/tree/main/classdoc/redis/README.md)
 
-  * `shallowflow.redis.standalones.RedisConnection`
-
-* Sources
-
-  * `shallowflow.redis.sources.RedisSource` - allows selection of action to perform
-
-* Transformers
-
-  * `shallowflow.redis.transformers.RedisTransformer` - allows selection of action to perform
-    
-* Sinks
-
-  * `shallowflow.redis.sinks.RedisSink` - allows selection of action to perform
   
 ## Examples
 
