@@ -1,6 +1,6 @@
 import redis
 from shallowflow.api.actor import Actor
-from shallowflow.api.config import Option
+from coed.config import Option
 
 STATE_CONNECTION = "connection"
 

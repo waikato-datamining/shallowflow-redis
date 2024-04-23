@@ -2,7 +2,7 @@ from datetime import datetime
 from time import sleep
 from ._AbstractAction import AbstractAction
 from shallowflow.api.compatibility import Unknown
-from shallowflow.api.config import Option
+from coed.config import Option
 
 
 class BroadcastAndListen(AbstractAction):

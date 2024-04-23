@@ -1,7 +1,7 @@
 from shallowflow.api.source import AbstractSimpleSource
 from shallowflow.api.actor_utils import find_closest_type
-from shallowflow.api.class_utils import get_class_name
-from shallowflow.api.config import Option
+from coed.class_utils import get_class_name
+from coed.config import Option
 from shallowflow.redis.standalones import RedisConnection
 from shallowflow.redis.sources.action import AbstractAction, Null
 

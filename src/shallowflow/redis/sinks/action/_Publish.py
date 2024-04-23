@@ -1,5 +1,5 @@
 from ._AbstractAction import AbstractAction
-from shallowflow.api.config import Option
+from coed.config import Option
 
 
 class Publish(AbstractAction):

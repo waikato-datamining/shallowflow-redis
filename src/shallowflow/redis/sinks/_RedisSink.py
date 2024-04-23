@@ -1,6 +1,6 @@
 from shallowflow.api.actor_utils import find_closest_type
-from shallowflow.api.class_utils import get_class_name
-from shallowflow.api.config import Option
+from coed.class_utils import get_class_name
+from coed.config import Option
 from shallowflow.api.sink import AbstractSimpleSink
 from shallowflow.redis.sinks.action import AbstractAction, Null
 from shallowflow.redis.standalones import RedisConnection
