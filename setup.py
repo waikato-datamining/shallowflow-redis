@@ -37,6 +37,11 @@ setup(
         "shallowflow-api",
         "redis",
     ],
+    entry_points={
+        "class_lister": [
+            "sf.redis=shallowflow.redis.class_lister:list_classes",
+        ],
+    },
     version="0.0.1",
     author='Peter Reutemann',
     author_email='fracpete@waikato.ac.nz',
