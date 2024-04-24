@@ -11,7 +11,7 @@ pip install "git+https://github.com/waikato-datamining/shallowflow-redis.git"
 
 ## Classes
 
-[Documentation](https://github.com/waikato-datamining/shallowflow-doc/tree/main/classdoc/redis/README.md)
+[Documentation](docs/README.md)
 
   
 ## Examples

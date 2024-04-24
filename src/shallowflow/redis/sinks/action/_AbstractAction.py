@@ -15,7 +15,7 @@ class AbstractAction(AbstractOptionHandler):
         :return: the list of types
         :rtype: list
         """
-        raise NotImplemented()
+        raise NotImplementedError()
 
     def _check(self, connection, o):
         """
@@ -42,7 +42,7 @@ class AbstractAction(AbstractOptionHandler):
         :return: None if successful, otherwise error message
         :rtype: str
         """
-        raise NotImplemented()
+        raise NotImplementedError()
 
     def execute(self, connection, o):
         """

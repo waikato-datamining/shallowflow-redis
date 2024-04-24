@@ -41,7 +41,7 @@ class AbstractAction(AbstractOptionHandler, Stoppable):
         :return: the list of types
         :rtype: list
         """
-        raise NotImplemented()
+        raise NotImplementedError()
 
     def generates(self):
         """
@@ -50,7 +50,7 @@ class AbstractAction(AbstractOptionHandler, Stoppable):
         :return: the list of types
         :rtype: list
         """
-        raise NotImplemented()
+        raise NotImplementedError()
 
     def _check(self, connection, o):
         """
@@ -76,7 +76,7 @@ class AbstractAction(AbstractOptionHandler, Stoppable):
         :param o: the object to use
         :return: the retrieved object, None if not available
         """
-        raise NotImplemented()
+        raise NotImplementedError()
 
     def execute(self, connection, o):
         """

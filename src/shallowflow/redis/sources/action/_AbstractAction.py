@@ -15,7 +15,7 @@ class AbstractAction(AbstractOptionHandler):
         :return: the list of types
         :rtype: list
         """
-        raise NotImplemented()
+        raise NotImplementedError()
 
     def _check(self, connection):
         """
@@ -37,7 +37,7 @@ class AbstractAction(AbstractOptionHandler):
         :type connection: redis.Redis
         :return: the retrieved object, None if not available
         """
-        raise NotImplemented()
+        raise NotImplementedError()
 
     def execute(self, connection):
         """
